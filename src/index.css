@@ -1,0 +1,10 @@
+view {
+    padding:            50px;
+    background-color:   #c03636;
+    font-family:        sans-serif;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+}
