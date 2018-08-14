@@ -1,6 +1,6 @@
 export const robots = [
     {
-        id: 1,
+        id: 0,
         name: "RoboCop",
         duty: "Guard The realms"
 
@@ -14,28 +14,28 @@ export const robots = [
 
     },
     {
-        id: 1,
+        id: 2,
         name: "Denarien",
         duty: "The First Ranger"
 
 
     },
     {
-        id: 1,
+        id: 3,
         name: "Kligar",
         duty: "The Hand"
 
 
     },
     {
-        id: 1,
+        id: 4,
         name: "Zugzwang",
         duty: "Protector of Dignity"
 
 
     },
     {
-        id: 1,
+        id: 5,
         name: "Lorien",
         duty: "Guard of Honor"
 
