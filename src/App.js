@@ -23,7 +23,7 @@ class App extends Component{
             return robots.name.toLowerCase().includes(this.state.searchField.toLowerCase());
         })
         return(
-            <div>
+            <div className="primary">
                 <h1>Robo Family</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <CardList robots= {filteredRobots}/>

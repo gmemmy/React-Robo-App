@@ -1,8 +1,43 @@
 .card-comp {
     background: lightgreen;
     border: 3px;
+    border-radius: 15px;
     padding: 3px;
     margin: 2px;
     display: inline-block;
-    
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.card-comp :hover {
+    animation: bounce 1s;
+}
+
+.search-style {
+    padding: 2px;
+}
+
+.form {
+padding: 3px;
+background: lightblue;
+border-color: blue;
+}
+
+.primary {
+    text-align: center;
 }

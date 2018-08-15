@@ -40,5 +40,25 @@ export const robots = [
         duty: "Guard of Honor"
 
 
+    },
+    {
+        id: 6,
+        name: "Knight Rider",
+        duty: "Castle"
+    },
+    {
+        id: 7,
+        name: "Doraemon",
+        duty: "Hound"
+    },
+    {
+        id: 8,
+        name: "Mega Man",
+        duty: "Team Leader"
+    },
+    {
+        id: 9,
+        name: "Ghost in the Shell",
+        duty: "Peace Keeper"
     }
 ]
